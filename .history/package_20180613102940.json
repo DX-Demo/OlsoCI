@@ -81,7 +81,6 @@
     "lint": "ng lint",
     "ng": "ng",
     "cl-test": "wchtools",
-    "cl-test1": "npm run cl-test",
     "postbuild": "node copyFiles.js && npm run crawling",
     "prebuild": "node scripts/updateBuildDate.js",
     "pree2e": "webdriver-manager update --gecko false",
