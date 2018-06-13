@@ -88,5 +88,5 @@
     "test": "ng test",
     "update-app-module": "echo Pulling the content types. Enter the user password for your WCH tenant: && wchtools pull -tlm -I --dir src/wchLayouts && echo Updating the layout settings for new components. && ibm-wch-sdk-cli register layoutcomponents --src src/app --verbose"
   },
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
